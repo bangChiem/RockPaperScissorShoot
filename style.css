@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    font-family: 'Hero New', sans-serif;
+    font-weight: bold;
+    font-size: 150px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons-panel {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userChoice {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.userChoice img{
+    max-width: 800px;
+    max-height: 700px;
+}
+
+
+button {
+    font-size: 50px;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
